@@ -15,7 +15,7 @@ jobs:
     name: Copy Test Plan
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v1.1
 
       - name: My Action
-        uses: PedroJPerez/my-actions@test
+        uses: PedroJPerez/my-actions@
