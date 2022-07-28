@@ -19,3 +19,6 @@ jobs:
 
       - name: My Action
         uses: PedroJPerez/my-actions@v1.4
+        with: 
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+
