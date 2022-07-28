@@ -1,0 +1,21 @@
+name: Copy Test Plan
+
+on:
+  pull_request:
+
+-env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  test-plan:
+    runs-on: ubuntu-latest
+    strategy: 
+      matrix: 
+        node-version: [16.x]
+    name: Copy Test Plan
+    steps:
+      - name: Checkout
+      - uses: actions/checkout@v2
+
+      -name: My Action
+      -uses: PedroJPerez/my-actions@master
