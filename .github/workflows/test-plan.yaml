@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: My Action
-        uses: PedroJPerez/my-actions/.github/actions/copy-test-plan/action
+        uses: PedroJPerez/my-actions/create-test-plan@v1.12
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
 
