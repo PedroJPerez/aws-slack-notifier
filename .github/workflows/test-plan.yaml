@@ -17,5 +17,5 @@ jobs:
       - name: Checkout
       - uses: actions/checkout@v2
 
-      -name: My Action
-      -uses: PedroJPerez/my-actions@master
+      - name: My Action
+      - uses: PedroJPerez/my-actions@master
