@@ -4,7 +4,7 @@ on:
   pull_request:
 
 env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  githubToken: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   test-plan:
